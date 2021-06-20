@@ -11,6 +11,16 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "modal-demo": [
+        "dist/modal-demo/modal-demo",
+        "dist/modal-demo"
+      ],
+      "my-demo-lib": [
+        "dist/my-demo-lib/my-demo-lib",
+        "dist/my-demo-lib"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
