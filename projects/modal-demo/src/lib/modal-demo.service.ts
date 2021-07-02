@@ -77,6 +77,7 @@ export class ModalDemoService {
       disableClose: true,
       autoFocus: true
     });
+    console.log(modalConfiguration.modelItem);
 
     return dialogRef.afterClosed();
   }
